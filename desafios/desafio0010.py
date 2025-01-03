@@ -1,0 +1,5 @@
+print('==== Quantos dólares você pode comprar? ====')
+print('=== Considerando que US$ 1,00 dólar vale R$ 5.56 reais (12/09/2024 as 16:47)===\n')
+num = float(input('Quanto você tem ai na carteira?: '))
+print('Pelos calculos você consegue comprar {:.2f} dólares.'.format(num / 5.56))
+print('=== FIM DO CÓDIGO ===')

@@ -1,0 +1,7 @@
+print('==== Reajuste de salário!!! ====')
+salario = float(input('Informe seu salário: '))
+novo_valor = salario + (salario * 15 / 100)
+print("====================================")
+print('==== Parabéns você recebeu uma promoção!!! ====')
+print('Seu antigo salário de R${:.2f}, foi para R${:.2f} por mês, com aumento de 15%!'.format(salario, novo_valor))
+print('=== FIM DO CÓDIGO ===')
