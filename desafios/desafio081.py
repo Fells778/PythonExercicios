@@ -1,4 +1,3 @@
-
 print("========== DESAFIO 81 =========")
 
 lista = list()
